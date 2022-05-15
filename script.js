@@ -1,1 +1,1 @@
-console.log("pimoux mod loaded successfully");
+document.querySelector("#cookies").style.color = "red";
