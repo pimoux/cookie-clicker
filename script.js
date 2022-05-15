@@ -1,6 +1,6 @@
-if (pimouxMod === undefined) let pimouxMod = {};
+if (pimouxMod === undefined) var pimouxMod = {};
 
-pimouxMod.init = () => {
+pimouxMod.launch = () => {
 
     //Reste un bout de temps puis disparait ==> cf Game.updateMenu()
 
@@ -30,3 +30,5 @@ pimouxMod.init = () => {
     pimouxFramed.appendChild(block);
     menu.appendChild(pimouxFramed);
 }
+
+pimouxMod.launch();
